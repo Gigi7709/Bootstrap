@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #first-carousel{
+    background-color:#000;
+  }
+  
+  .carousel-item img{
+    height: 400px;
+    width: 90%;
+    border:5px solid #000;
+  }
+  
+  .wings{
+    border:5px solid rgb(156, 109, 89) !important;
+  }
+  
+  .burgers{
+    border:5px solid rgb(184, 126, 25) !important;
+  }
+  
+  .ribs{
+    border:5px solid rgb(79, 53, 18) !important;
+  }
+  
+  .carousel-inner{
+    margin:auto;
+    width: 80% !important;
+    text-align: center !important;
+  }
+  
+  .carousel-caption{
+    left:0% !important;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    }
+  
+  .pb:hover{
+      background-color: rgba(255, 255, 255, 0.505);
+      border-radius: 20px;
+  }
+  
+  .nb:hover{
+      background-color: rgba(255, 255, 255, 0.505);
+      border-radius: 20px;
+  }
+  
+  .carousel-caption{
+      width: 100%;
+      padding-left: 0;
+      margin-left: 0;
+      background-color: rgba(0, 0, 0, 0.668);
+      
+  }
+  
+  #buttons{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px;
+  }
+  
+  .btn{
+      margin: 10px;
+  }
+  
+  .card-text a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  .row{
+    justify-content: center;
+  }
